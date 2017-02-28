@@ -24,6 +24,9 @@ Prerequisites - From assgn-q3/necessary-files/..
                 save glut.h ----------->  MinGW32 (your compiler)/include/GL/
                 save libglut32.a------->  MinGW32 (your compiler)/lib
                 save glut32.dll-------->  C:\Windows\System32 or Where your .exe is kept
+                
+               use these commands while compiling
+               -lglu32 -lglut32 -lopengl32
              
 Program is a typical Open gl program using glut for windowing and creating octahedron while 
 gl is used for rendering purpose.
